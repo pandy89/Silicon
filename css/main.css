@@ -972,3 +972,148 @@ img{
 }
 
 /* Features end */
+
+/* How does it work start */
+#howdoesitwork{
+    background-color: var(--gray-100);
+}
+
+.hdiw-area{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    @media(width >= 768px){
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (width >= 1024px){
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+.hdiw-headline{
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 130%;
+    color: var(--gray-900);
+    text-align: center;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.hdiw-text-mobile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 56px;
+
+    @media(width >= 768px){
+        display: none;
+    }
+
+    .h4{
+        margin: 0;
+        padding-bottom: 24px;
+        color: var(--gray-900);
+        font-size: 1.5rem;
+    }  
+}
+
+.hdiw-text-tablet{
+    display: none;
+
+    @media (width >=768px){
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 56px;
+        
+        .h4{
+            margin: 0;
+            padding-bottom: 24px;
+            color: var(--gray-900);
+            font-size: 1.5rem;
+        }  
+    }
+
+    @media (width>=1024px){
+        display: none;
+    }
+}
+
+.hdiw-text-desktop{
+    display: none;
+
+    @media (width >=768px){
+        display: none;
+    }
+
+    @media (width >=1024px){
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 56px;
+        margin: 0 auto;
+        width: 650px;
+
+        .h4{
+            margin: 0;
+            padding-bottom: 24px;
+            color: var(--gray-900);
+            font-size: 1.5rem;
+        }  
+    }
+}
+
+.hdiw-images-mobile{
+    align-items: center;
+    padding: 0 40px 32px 40px;
+
+    @media (width >= 768px){
+        display: none;
+    }
+
+    @media ( width >= 1024px){
+        display: none;
+    }
+}
+
+.hdiw-images-tablet{
+    display: none;
+
+    @media (width >= 768px){
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        padding: 0 40px 32px 40px;
+    }
+
+    @media ( width >= 1024px){
+        display: none;
+    }
+}
+
+.hdiw-images-desktop{
+    display: none;
+
+    @media (width >= 768px){
+        display: none;
+    }
+
+    @media ( width >= 1024px){
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        padding: 0 0px 32px 0px;
+    }
+    @media ( width >= 1440px){
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0px 32px 0px;
+    }
+} 
+
+/* How does it work end */

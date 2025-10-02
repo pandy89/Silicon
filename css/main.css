@@ -330,6 +330,23 @@ button, .btn{
     }
 }
 
+.icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../assets/images/icons/menu-icon-white.svg") no-repeat center/contain;
+    
+
+    @media (width >=768px){
+        background: url("../assets/images/icons/icon-user.svg") no-repeat center/contain;
+
+    }
+
+    @media (width >=1440px){
+        background: url("../assets/images/icons/icon-user.svg") no-repeat center/contain;
+    }
+}
+
 .darkmode-text{
     display:none;
 

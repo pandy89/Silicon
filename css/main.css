@@ -1822,3 +1822,19 @@ input::placeholder{
 }
 
 /* Subscribe end */
+
+/*Footer start */
+footer{
+    color: var(--gray-700);
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    font-size: 14px;
+    font-weight: 400;
+
+    @media (width >=1024px){
+        margin: 0 321px 0 320px;
+    }
+}
+
+/* Footer end */
